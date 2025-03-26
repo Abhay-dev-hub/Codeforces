@@ -1,4 +1,5 @@
 year = list(map(int,input().split()))
-while :
+while year < 2:
+    pass
 
 
