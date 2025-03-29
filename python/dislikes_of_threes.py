@@ -1,5 +1,16 @@
+# nigga wtf
+
+"""
 t = int(input())
-for q in range(0,t):
-    x = int(input())
-    if x % 3 != 0 or str(x[-1]) != 3:
-        print(x)
+for _ in range(t):
+    k = int(input())
+    count = 0
+    current = 1
+    while True:
+        if current % 3 != 0 and current % 10 != 3:
+            count += 1
+            if count == k:
+                print(current)
+                break
+        current += 1
+"""
