@@ -1,4 +1,4 @@
-t = int(input())
+ = int(input())
 i = 1
 while i <= t:
     if i % 2 == 1:
